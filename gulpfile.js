@@ -32,7 +32,7 @@ function scripts() {
     ])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
-    .pipe(dest('app/js'))
+    .pipe(dest('Template/js'))
     .pipe(browserSync.stream())
     
 }
